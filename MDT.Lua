@@ -247,8 +247,14 @@ local Objects = Decode('AAAkIQRQYXJ0IQhBbmNob3JlZCIhDUJvdHRvbVN1cmZhY2UDAAAAAAAA
 ..'gD8AACBCIQpUb3BTdXJmYWNlBBYjJAq/mZNCej8jQ9o9F0QKAACeQgAAsEEAAIA/IQxUcmFuc3BhcmVuY3kDAAAAYGZm7j8EGyMkCr6Z40J6PyND2h0cRAoAAIA/AADAQQAAIEIEHiMkCr6Zk0J6PyND2v0gRAQgIyQKfDMHQno/I0PaHRxEBCIjJAq/mZNCer8uQ9od'
 ..'HEQKAACAPwAAAAAAAMAzCgAAAAAAAIA/AAAAAAYBAAoAAgMEBQYHCAkKCwwNDg8QERITFAUBAAoAAgMEBQYHCBUKCwwNEBYSFxQFGBkBAAoAAgMEBQYHCBoKCwwNEBsSHBQFGBkBAAoAAgMEBQYHCB0KCwwNEB4SFxQFGBkBAAoAAgMEBQYHCB8KCwwNECASHBQFGBkB'
 ..'AAoAAgMEBQYHCCEKCwwNECISExQFGBkA')
+local MapFolder = instance.new("Folder")
+MapFolder.Parent = game.Workspace
+MapFolder.Name = "Gold3nF1r3's Mapping tools"
 for _,obj in pairs(Objects) do
+	
 	obj.Parent = script or workspace
 end
 
-return ("Map Development Test")
+local datalist={}
+datalist.MapName="Map Development Test"
+datalist.MapInstance=MapFolder
