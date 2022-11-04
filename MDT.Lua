@@ -250,3 +250,5 @@ local Objects = Decode('AAAkIQRQYXJ0IQhBbmNob3JlZCIhDUJvdHRvbVN1cmZhY2UDAAAAAAAA
 for _,obj in pairs(Objects) do
 	obj.Parent = script or workspace
 end
+
+return ("Data")
