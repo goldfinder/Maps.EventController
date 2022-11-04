@@ -1,4 +1,4 @@
-return function(data)
+return function(data) --Fix
     print(data)
     local dataset = {}
     dataset.LoadingMap = false
