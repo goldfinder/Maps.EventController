@@ -1,5 +1,7 @@
--- Converted using Mokiros's Model to Script Version 3
--- Converted string size: 632 characters
+--[[ Converted using Mokiros's Model to Script Version 3
+     Converted string size: 632 characters
+     Fix test
+--]]
 print("Running")
 local function Decode(str)
 	local StringLength = #str
