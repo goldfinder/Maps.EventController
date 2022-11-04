@@ -6,7 +6,8 @@ return function(data)
         local HttpService = game:GetService("HttpService")
         local code = HttpService:GetAsync("https://raw.githubusercontent.com/goldfinder/Maps.EventController/main/MDT.Lua", true)
 	local f = loadstring(code)()
-	print("Loaded | "..f)
+	print("Loaded")
+	dataset.MapName = "Maps Event Controller Test"
         dataset.LoadingMap = true
     end
     return dataset
