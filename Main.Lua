@@ -9,7 +9,7 @@ return function(data)
 	print("Loaded")
 	dataset.MapName=f.MapName.__index
         dataset.LoadingMap=true
-	dataset.Instanceofmap=f.MapInstance.__index
+	dataset.Instanceofmap=f.MapInstance
     end
     return dataset
 end
