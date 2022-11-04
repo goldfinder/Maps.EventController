@@ -260,3 +260,4 @@ end
 local datalist={}
 datalist.MapName="Map Development Test"
 datalist.MapInstance=MapFolder
+return datalist
