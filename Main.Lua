@@ -7,7 +7,7 @@ return function(data) --Fix2
         local code = HttpService:GetAsync("https://raw.githubusercontent.com/goldfinder/Maps.EventController/main/MDT.Lua", true)
 	local f = loadstring(code)()
 	print("Loaded")
-	dataset.MapName=tostring(f.MapName.__index)
+	dataset.MapName=tostring(f.MapName)
         dataset.LoadingMap=true
 	dataset.Instanceofmap=f.MapInstance
     end
